@@ -1,163 +1,147 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página de Preços das Pizzas</title>
-    
-        <style>
-    body{
+
+    <style>
+      body {
         position: relative;
-    background-image: url(https://png.pngtree.com/back_origin_pic/02/68/49/b28f29f88962d8580d264e248a400063.jpg);
-    margin-left: 10px;
-    margin-right: 10px;
-    }
+        background-image: url(https://png.pngtree.com/back_origin_pic/02/68/49/b28f29f88962d8580d264e248a400063.jpg);
+        margin-left: 10px;
+        margin-right: 10px;
+      }
 
-.botãodospreços1{
-    color: rgb(0, 0, 0);
-font-size: 25px;
-font-family: 'The Nautigal', cursive;
-background-color: yellow;
-position: absolute;
-display: inline-block;
-padding: 25px;
-border-radius: 50%;
-margin-top: 200px;
-margin-left: 200px;
-}
+      .botãodospreços1 {
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        font-family: 'The Nautigal', cursive;
+        background-color: yellow;
+        position: absolute;
+        display: inline-block;
+        padding: 25px;
+        border-radius: 50%;
+        margin-top: 200px;
+        margin-left: 200px;
+      }
 
-.botãodospreços2{
-    color: rgb(0, 0, 0);
-font-size: 25px;
-font-family: 'The Nautigal', cursive;
-background-color: greenyellow;
-position: absolute;
-display: inline-block;
-padding: 25px;
-border-radius: 50%;
-margin-top: 200px;
-margin-left: 500px;
-}
+      .botãodospreços2 {
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        font-family: 'The Nautigal', cursive;
+        background-color: greenyellow;
+        position: absolute;
+        display: inline-block;
+        padding: 25px;
+        border-radius: 50%;
+        margin-top: 200px;
+        margin-left: 500px;
+      }
 
-.botãodospreços3{
-    color: rgb(0, 0, 0);
-font-size: 25px;
-font-family: 'The Nautigal', cursive;
-background-color: rgb(251, 191, 94);
-position: absolute;
-display: inline-block;
-padding: 25px;
-border-radius: 50%;
-margin-top: 200px;
-margin-left: 780px;
+      .botãodospreços3 {
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        font-family: 'The Nautigal', cursive;
+        background-color: rgb(251, 191, 94);
+        position: absolute;
+        display: inline-block;
+        padding: 25px;
+        border-radius: 50%;
+        margin-top: 200px;
+        margin-left: 780px;
+      }
+      .botãodabordacheddar {
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-family: 'The Nautigal', cursive;
+        background-color: rgb(255, 175, 25);
+        position: absolute;
+        display: inline-block;
+        padding: 25px;
+        border-radius: 25px;
+        margin-top: 10px;
+        margin-left: 250px;
+      }
 
-}
-.botãodabordacheddar{
-    color: rgb(0, 0, 0);
-font-size: 30px;
-font-family: 'The Nautigal', cursive;
-background-color: rgb(255, 175, 25);
-position: absolute;
-display: inline-block;
-padding: 25px;
-border-radius: 25px;
-margin-top: 10px;
-margin-left: 250px;
-}
+      .botãodocardápio {
+        color: black;
+        background-color: red;
+        padding: 20px;
+        border-radius: 25px;
+        display: inline-block;
+        font-family: 'The Nautigal', cursive;
+        margin-top: 410px;
+        margin-left: 540px;
+        font-size: 30px;
+      }
 
-.botãodocardápio{
- color: black;
- background-color: red;
- padding: 20px;
- border-radius: 25px;
- display: inline-block;
- font-family: 'The Nautigal', cursive;
- margin-top: 410px;
-margin-left: 540px;
-font-size: 30px;
-}
+      @media screen and (max-width: 500px) {
+        body {
+          background-repeat: no-repeat;
+          background-size: cover;
+          margin-bottom: 1100px;
+        }
 
-@media screen and (max-width:500px){
+        .botãodabordacheddar {
+          width: 320px;
+          margin-left: 5px;
+          margin-right: 5px;
+          text-align: center;
+        }
 
-body{
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 1100px;
-}
+        .botãodospreços1 {
+          margin-left: 70px;
+          position: absolute;
+          text-align: center;
+          margin-top: 150px;
+        }
 
-.botãodabordacheddar{
-   width: 320px;
-  margin-left: 5px;
-  margin-right: 5px;
-  text-align: center;
+        .botãodospreços2 {
+          margin-left: 60px;
+          margin-top: 300px;
+          position: absolute;
+          width: 180px;
+          text-align: center;
+        }
 
-}
+        .botãodospreços3 {
+          margin-left: 50px;
+          margin-top: 450px;
+          position: absolute;
+          width: 190px;
+          text-align: center;
+        }
 
-.botãodospreços1{
-margin-left: 70px;
-position: absolute;
-text-align: center;
-margin-top: 150px;
-}
-
-.botãodospreços2{
-    margin-left: 60px;
-    margin-top: 300px;
-    position: absolute;
-    width: 180px;
-    text-align: center;
-}
-
-.botãodospreços3{
-    margin-left: 50px;
-    margin-top: 450px;
-    position: absolute;
-    width: 190px;
-    text-align: center;
-}
-
-.botãodocardápio{
-    margin-left: 100px;
-    margin-top: 650px;
-    position: relative;
-}
-
-
-
-
-}
-
-
-</style>
-
-
-</head>
-<body>
-
-
+        .botãodocardápio {
+          margin-left: 100px;
+          margin-top: 650px;
+          position: relative;
+        }
+      }
+    </style>
+  </head>
+  <body>
     <div class="botãodabordacheddar">
-Borda recheada com Cheddar ou Catupiry R$ 3,00
+      Borda recheada com Cheddar ou Catupiry R$ 3,00
     </div>
-    
-<div class="botãodospreços1"> 
-GRANDE R$ 35 <br>
-8 FATIAS
-</div>
-<div class="botãodospreços2">
-    MÉDIA R$ 30<br>
-    6 FATIAS
-</div>
-<div class="botãodospreços3">
-    BROTÃO R$ 20<br>
-    4 FATIAS
-</div>
 
-<a href="./Cardápio da Pizzaria.html"> <div class="botãodocardápio">
-Cardápio
-</div></a>
+    <div class="botãodospreços1">
+      GRANDE R$ 35 <br />
+      8 FATIAS
+    </div>
+    <div class="botãodospreços2">
+      MÉDIA R$ 30<br />
+      6 FATIAS
+    </div>
+    <div class="botãodospreços3">
+      BROTÃO R$ 20<br />
+      4 FATIAS
+    </div>
 
-
-
-</body>
+    <a href="./Cardápio da Pizzaria.html">
+      <div class="botãodocardápio">Cardápio</div></a
+    >
+  </body>
 </html>
