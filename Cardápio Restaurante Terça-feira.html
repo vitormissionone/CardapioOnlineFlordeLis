@@ -1,198 +1,308 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cardápio do Restaurante Terça-feira</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2? família=The+Nautigal&display=swap" rel="stylesheet">
-   <style>
-body{
-    
-   background-size: cover;
-    background-image: url(https://png.pngtree.com/back_origin_pic/02/68/49/b28f29f88962d8580d264e248a400063.jpg);
-    background-repeat: no-repeat;
-}
-
-.cardápio{
-    background-color: greenyellow;
-    width: 20%;
-    font-size: 20px;
-border-radius: 30px;
-background-position: center;
-
-margin: auto;
-
-
-}
-
-
-.titulodocardapio{
-    background-color: red;
-    font-family:'The Nautigal', cursive;
-    text-align: center;
-    padding: 5px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-}
-
-
-
-li{
-    list-style: none;
-    font-family:'The Nautigal', cursive;
-    font-size: 20px;
-    
-}
-
-
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
-.cardápiodequartafeiralink{
-color: rgb(0, 0, 0);
-font-size: 20px;
-position: relative;
-left: 173px;
-bottom: 60px;
-background-color: greenyellow;
-border-radius: 20px;
-padding: 20px;
-font-family:'The Nautigal', cursive ;
-
-}
-
-
-
-img{
-    width: 50px;
-margin-top: 50px;
-position: relative;
-bottom: 10px;
-}
-
-@media screen and (max-width: 500px){
-    
-    body{
-        background-repeat: no-repeat;
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2? família=The+Nautigal&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
         background-size: cover;
-    }
-    
-    
-    
-    .cardápio{
-        width: 200px;
+        background-image: url(https://png.pngtree.com/back_origin_pic/02/68/49/b28f29f88962d8580d264e248a400063.jpg);
+        background-repeat: no-repeat;
+      }
+
+      .cardápio {
+        background-color: greenyellow;
+        width: 20%;
+        font-size: 20px;
+        border-radius: 30px;
+        background-position: center;
+
         margin: auto;
-    }
+      }
 
+      .titulodocardapio {
+        background-color: red;
+        font-family: 'The Nautigal', cursive;
+        text-align: center;
+        padding: 5px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+      }
 
+      li {
+        list-style: none;
+        font-family: 'The Nautigal', cursive;
+        font-size: 20px;
+      }
 
+      a {
+        text-decoration: none;
+        color: black;
+      }
 
+      .cardápiodequartafeiralink {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        position: relative;
+        left: 173px;
+        bottom: 90px;
+        background-color: greenyellow;
+        border-radius: 20px;
+        padding: 20px;
+        font-family: 'The Nautigal', cursive;
+      }
 
-    
-img{
-    
-    width: 50px;
-margin-top: 220px;
-position: relative;
-bottom: 25px;
+      img {
+        width: 50px;
+        margin-top: 50px;
+        position: relative;
+        bottom: 40px;
+      }
 
-}
+      #carnedesol {
+        margin-right: 100px;
+        border-radius: 12px;
+      }
 
+      #gratinado {
+        margin-right: 30px;
+        border-radius: 12px;
+      }
 
-    .cardápiodequartafeiralink{
-color: rgb(0, 0, 0);
-font-size: 13px;
-position: relative;
-left: 115px;
-bottom: 66px;
-background-color: greenyellow;
-border-radius: 20px;
-padding: 20px;
-font-family:'The Nautigal', cursive ;
+      #ensopadodecarne {
+        margin-right: 45px;
+        border-radius: 12px;
+      }
 
-}
+      #tilapiagrelhada {
+        margin-right: 67px;
+        border-radius: 12px;
+      }
 
-li{
-    font-size: 20px;
-    
-}
+      #churrascomisto {
+        margin-right: 65px;
+        border-radius: 12px;
+      }
 
+      #frangogrelhado {
+        margin-right: 65px;
+        border-radius: 12px;
+      }
 
+      #rondelly {
+        margin-right: 140px;
+        border-radius: 12px;
+      }
 
-}
+      #macarrao {
+        margin-right: 130px;
+        border-radius: 12px;
+      }
 
+      #puredebatata {
+        margin-right: 80px;
+        border-radius: 12px;
+      }
 
+      #arrozbranco {
+        margin-right: 95px;
+        border-radius: 12px;
+      }
+
+      #feijaocaldo {
+        margin-right: 105px;
+        border-radius: 12px;
+      }
+
+      #feijaotropeiro {
+        margin-right: 75px;
+        border-radius: 12px;
+      }
+
+      #sufledelegumes {
+        margin-right: 55px;
+        border-radius: 12px;
+      }
+
+      #saladas {
+        margin-right: 145px;
+        border-radius: 12px;
+      }
+
+      #legumesrefogados {
+        margin-right: 35px;
+        border-radius: 12px;
+      }
+
+      @media screen and (max-width: 500px) {
+        body {
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .cardápio {
+          width: 200px;
+          margin: auto;
+        }
+
+        img {
+          width: 50px;
+          margin-top: 220px;
+          position: relative;
+          bottom: 25px;
+        }
+
+        .cardápiodequartafeiralink {
+          color: rgb(0, 0, 0);
+          font-size: 13px;
+          position: relative;
+          left: 115px;
+          bottom: 66px;
+          background-color: greenyellow;
+          border-radius: 20px;
+          padding: 20px;
+          font-family: 'The Nautigal', cursive;
+        }
+
+        li {
+          font-size: 20px;
+        }
+      }
     </style>
-</head>
-<body>
 
+    <script>
+      function onOver(elemento) {
+        elemento.style.backgroundColor = 'red';
+      }
+
+      function onOut(elemento) {
+        elemento.style.backgroundColor = 'greenyellow';
+      }
+    </script>
+  </head>
+  <body>
     <div class="cardápio">
-        <div class="titulodocardapio">
-        Pratos de Terça-feira
+      <div class="titulodocardapio">Pratos de Terça-feira</div>
+
+      <ul>
+        <li onmouseover="onOver(this)" onmouseout="onOut(this)" id="carnedesol">
+          <a href="./Carne de Sol.html">Carne de Sol</a>
+        </li>
+        <li onmouseover="onOver(this)" onmouseout="onOut(this)" id="gratinado">
+          <a href="./Gratinado de Banana com Carne seca.html"
+            >Gratinado de Banana com Carne seca</a
+          >
+        </li>
+        <li
+          onmouseover="onOver(this)"
+          onmouseout="onOut(this)"
+          id="ensopadodecarne"
+        >
+          <a href="./Ensopado de Carne com Legumes.html"
+            >Ensopado de Carne com legumes
+          </a>
+        </li>
+        <li
+          onmouseover="onOver(this)"
+          onmouseout="onOut(this)"
+          id="tilapiagrelhada"
+        >
+          <a href="./Tilápia Grelhada.html">Tilápia Grelhada</a>
+        </li>
+        <li
+          onmouseover="onOver(this)"
+          onmouseout="onOut(this)"
+          id="churrascomisto"
+        >
+          <a href="./Churrasco Misto.html">Churrasco Misto</a>
+        </li>
+        <li
+          onmouseover="onOver(this)"
+          onmouseout="onOut(this)"
+          id="frangogrelhado"
+        >
+          <a href="./Frango Grelhado.html">Frango Grelhado</a>
+        </li>
+        <li onmouseover="onOver(this)" onmouseout="onOut(this)" id="rondelly">
+          <a href="./Rondelly.html">Rondelly</a>
+        </li>
+        <li onmouseover="onOver(this)" onmouseout="onOut(this)" id="macarrao">
+          <a href="./Macarrão.html">Macarrão</a>
+        </li>
+        <li
+          onmouseover="onOver(this)"
+          onmouseout="onOut(this)"
+          id="puredebatata"
+        >
+          <a href="./Purê de Batata.html">Purê de Batata</a>
+        </li>
+        <li
+          onmouseover="onOver(this)"
+          onmouseout="onOut(this)"
+          id="arrozbranco"
+        >
+          <a href="./Arroz Branco.html">Arroz Branco</a>
+        </li>
+        <li
+          onmouseover="onOver(this)"
+          onmouseout="onOut(this)"
+          id="feijaocaldo"
+        >
+          <a href="./Feijão Caldo.html">Feijão Caldo</a>
+        </li>
+        <li
+          onmouseover="onOver(this)"
+          onmouseout="onOut(this)"
+          id="feijaotropeiro"
+        >
+          <a href="./Feijão Tropeiro.html">Feijão Tropeiro</a>
+        </li>
+        <li
+          onmouseover="onOver(this)"
+          onmouseout="onOut(this)"
+          id="sufledelegumes"
+        >
+          <a href="./Suflê de Legumes.html">Suflê de Legumes</a>
+        </li>
+        <li onmouseover="onOver(this)" onmouseout="onOut(this)" id="saladas">
+          <a href="./Saladas.html">Saladas</a>
+        </li>
+        <li
+          onmouseover="onOver(this)"
+          onmouseout="onOut(this)"
+          id="legumesrefogados"
+        >
+          <a href="./Legumes Refogados.html">Legumes Refogados</a>
+        </li>
+        <br />
+      </ul>
     </div>
 
-    
-<ul>
+    <div>
+      <a href="https://www.instagram.com/restauranteflordelis/"
+        ><img src="./images/insta.png" alt="instagram"
+      /></a>
 
+      <a href="https://wa.me/5574991304115"
+        ><img src="./images/whats.png" alt="whatsapp"
+      /></a>
+    </div>
 
-
-    <li><a href="./Carne de Sol.html">Carne de Sol</a></li>
-    <li><a href="./Gratinado de Banana com Carne seca.html">Gratinado de Banana com Carne seca</a></li>
-    <li><a href="./Ensopado de Carne com Legumes.html">Ensopado de Carne com legumes </a></li>
-    <li><a href="./Tilápia Grelhada.html">Tilápia Grelhada</a></li>
-    <li><a href="./Churrasco Misto.html">Churrasco Misto</a></li>
-    <li><a href="./Frango Grelhado.html">Frango Grelhado</a></li>
-    <li><a href="./Rondelly.html">Rondelly</a></li>
-    <li><a href="./Macarrão.html">Macarrão</a></li>
-    <li><a href="./Purê de Batata.html">Purê de Batata</a></li>
-    <li><a href="./Arroz Branco.html">Arroz Branco</a></li>
-    <li><a href="./Feijão Caldo.html">Feijão Caldo</a></li>
-    <li><a href="./Feijão Tropeiro.html">Feijão Tropeiro</a></li>
-    <li><a href="./Suflê de Legumes.html">Suflê de Legumes</a></li>
-    <li><a href="./Saladas.html">Saladas</a></li>
-<li><a href="./Legumes Refogados.html">Legumes Refogados</a></li>
-    <br>
-</ul>
-
-</div>
-
-<div>
-<a href="https://www.instagram.com/restauranteflordelis/"><img src="./images/insta.png" alt="instagram"></a>
-
-<a href="https://wa.me/5574991304115"><img src="./images/whats.png" alt="whatsapp"></a>
-
-</div>
-
-<div>
-   <a class="cardápiodequartafeiralink" href="./Cardápio do Restaurante Quarta-feira.html"> Cardápio de Quarta-feira</a>
-
-</div>
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-</body>
-
-
-
-
+    <div>
+      <a
+        class="cardápiodequartafeiralink"
+        href="./Cardápio do Restaurante Quarta-feira.html"
+      >
+        Cardápio de Quarta-feira</a
+      >
+    </div>
+  </body>
 </html>
