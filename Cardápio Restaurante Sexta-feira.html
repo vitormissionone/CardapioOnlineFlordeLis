@@ -270,6 +270,16 @@
           margin-right: 0px;
           border-radius: 12px;
         }
+
+        .images {
+          position: relative;
+          bottom: 25px;
+        }
+
+        .botaosextafeira {
+          position: relative;
+          bottom: 33px;
+        }
       }
     </style>
 
@@ -388,7 +398,7 @@
       </ul>
     </div>
 
-    <div>
+    <div class="images">
       <a href="https://www.instagram.com/restauranteflordelis/"
         ><img src="./images/insta.png" alt="instagram"
       /></a>
@@ -398,8 +408,13 @@
       /></a>
     </div>
 
-    <div>
-      <a class="cardápiodesábadolink" href="./Cardápio Restaurante Sábado.html">
+    <div class="botaosextafeira">
+      <a
+        onmouseover="onOver(this)"
+        onmouseout="onOut(this)"
+        class="cardápiodesábadolink"
+        href="./Cardápio Restaurante Sábado.html"
+      >
         Cardápio de Sábado</a
       >
     </div>

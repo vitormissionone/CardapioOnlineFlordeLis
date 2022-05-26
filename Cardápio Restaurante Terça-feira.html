@@ -250,6 +250,16 @@
           margin-right: 0px;
           border-radius: 12px;
         }
+
+        .images {
+          position: relative;
+          bottom: 5px;
+        }
+
+        .botaodequarta {
+          position: relative;
+          bottom: 10px;
+        }
       }
     </style>
 
@@ -361,7 +371,7 @@
       </ul>
     </div>
 
-    <div>
+    <div class="images">
       <a href="https://www.instagram.com/restauranteflordelis/"
         ><img src="./images/insta.png" alt="instagram"
       /></a>
@@ -371,8 +381,10 @@
       /></a>
     </div>
 
-    <div>
+    <div class="botaodequarta">
       <a
+        onmouseover="onOver(this)"
+        onmouseout="onOut(this)"
         class="cardápiodequartafeiralink"
         href="./Cardápio do Restaurante Quarta-feira.html"
       >

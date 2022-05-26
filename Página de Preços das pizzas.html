@@ -67,7 +67,7 @@
 
       .botãodocardápio {
         color: black;
-        background-color: red;
+        background-color: white;
         padding: 20px;
         border-radius: 25px;
         display: inline-block;
@@ -77,29 +77,34 @@
         font-size: 30px;
       }
 
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
       @media screen and (max-width: 500px) {
         body {
           background-repeat: no-repeat;
           background-size: cover;
-          margin-bottom: 1100px;
+          height: 770px;
         }
 
         .botãodabordacheddar {
           width: 320px;
-          margin-left: 5px;
+          margin-left: 2px;
           margin-right: 5px;
           text-align: center;
         }
 
         .botãodospreços1 {
-          margin-left: 70px;
+          margin-left: 80px;
           position: absolute;
           text-align: center;
           margin-top: 150px;
         }
 
         .botãodospreços2 {
-          margin-left: 60px;
+          margin-left: 70px;
           margin-top: 300px;
           position: absolute;
           width: 180px;
@@ -107,7 +112,7 @@
         }
 
         .botãodospreços3 {
-          margin-left: 50px;
+          margin-left: 65px;
           margin-top: 450px;
           position: absolute;
           width: 190px;
@@ -115,12 +120,27 @@
         }
 
         .botãodocardápio {
-          margin-left: 100px;
+          margin-left: 115px;
           margin-top: 650px;
           position: relative;
         }
+
+        a {
+          text-decoration: none;
+          color: black;
+        }
       }
     </style>
+
+    <script>
+      function onOver(elemento) {
+        elemento.style.backgroundColor = 'red';
+      }
+
+      function onOut(elemento) {
+        elemento.style.backgroundColor = 'white';
+      }
+    </script>
   </head>
   <body>
     <div class="botãodabordacheddar">
@@ -140,8 +160,15 @@
       4 FATIAS
     </div>
 
-    <a href="./Cardápio da Pizzaria.html">
-      <div class="botãodocardápio">Cardápio</div></a
-    >
+    <div>
+      <a
+        onmouseover="onOver(this)"
+        onmouseout="onOut(this)"
+        class="botãodocardápio"
+        href="./Cardápio da Pizzaria.html"
+      >
+        Cardápio</a
+      >
+    </div>
   </body>
 </html>

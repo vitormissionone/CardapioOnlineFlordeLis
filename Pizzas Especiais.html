@@ -78,9 +78,9 @@
 
       @media screen and (max-width: 500px) {
         body {
-          margin-bottom: 300px;
           background-repeat: no-repeat;
           background-size: cover;
+          height: 770px;
         }
 
         .cardápio {
@@ -90,9 +90,8 @@
 
         img {
           width: 50px;
-          margin-top: 9px;
           position: relative;
-          top: 5px;
+          top: 50px;
         }
 
         .pizzasespeciaislink {
@@ -100,7 +99,7 @@
           font-size: 20px;
           position: relative;
           left: 115px;
-          bottom: 40px;
+          top: 5px;
           background-color: greenyellow;
           border-radius: 20px;
           padding: 20px;
@@ -155,7 +154,12 @@
     </div>
 
     <div>
-      <a class="pizzasespeciaislink" href="./Pizzas Doces.html">
+      <a
+        onmouseover="onOver(this)"
+        onmouseout="onOut(this)"
+        class="pizzasespeciaislink"
+        href="./Pizzas Doces.html"
+      >
         Pizzas Doces</a
       >
     </div>

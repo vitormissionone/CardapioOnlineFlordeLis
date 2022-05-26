@@ -155,6 +155,7 @@
         body {
           background-repeat: no-repeat;
           background-size: cover;
+          height: 790px;
         }
 
         .cardápio {
@@ -164,9 +165,8 @@
 
         img {
           width: 50px;
-          margin-top: 9px;
+          top: 90px;
           position: relative;
-          bottom: 0px;
         }
 
         .pizzasespeciaislink {
@@ -174,7 +174,7 @@
           font-size: 20px;
           position: relative;
           left: 115px;
-          bottom: 40px;
+          top: 40px;
           background-color: greenyellow;
           border-radius: 20px;
           padding: 20px;
@@ -385,7 +385,12 @@
     </div>
 
     <div>
-      <a class="pizzasespeciaislink" href="./Pizzas Especiais.html">
+      <a
+        onmouseover="onOver(this)"
+        onmouseout="onOut(this)"
+        class="pizzasespeciaislink"
+        href="./Pizzas Especiais.html"
+      >
         Pizzas Especiais</a
       >
     </div>

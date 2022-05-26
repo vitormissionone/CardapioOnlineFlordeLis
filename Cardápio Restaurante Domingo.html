@@ -277,6 +277,16 @@
           margin-right: 0px;
           border-radius: 12px;
         }
+
+        .images {
+          position: relative;
+          bottom: 50px;
+        }
+
+        .botaopaginainicial {
+          position: relative;
+          bottom: 58px;
+        }
       }
     </style>
 
@@ -402,7 +412,7 @@
       </ul>
     </div>
 
-    <div>
+    <div class="images">
       <a href="https://www.instagram.com/restauranteflordelis/"
         ><img src="./images/insta.png" alt="instagram"
       /></a>
@@ -412,8 +422,13 @@
       /></a>
     </div>
 
-    <div>
-      <a class="voltarparapáginainicial" href="./index.html">
+    <div class="botaopaginainicial">
+      <a
+        onmouseover="onOver(this)"
+        onmouseout="onOut(this)"
+        class="voltarparapáginainicial"
+        href="./index.html"
+      >
         Voltar para página inicial</a
       >
     </div>

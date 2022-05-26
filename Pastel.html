@@ -77,9 +77,9 @@
 
       @media screen and (max-width: 500px) {
         body {
-          margin-bottom: 300px;
           background-repeat: no-repeat;
           background-size: cover;
+          height: 780px;
         }
 
         .cardápio {
@@ -89,21 +89,26 @@
 
         img {
           width: 50px;
-          margin-top: 9px;
+
           position: relative;
-          top: 5px;
+          top: 50px;
         }
 
         .pizzasespeciaislink {
           color: rgb(0, 0, 0);
           font-size: 20px;
           position: relative;
-          left: 10px;
-          bottom: 120px;
+          left: 120px;
+          top: 6px;
           background-color: greenyellow;
           border-radius: 20px;
           padding: 20px;
           font-family: 'The Nautigal', cursive;
+        }
+
+        li {
+          margin-right: 0px;
+          border-radius: 12px;
         }
       }
     </style>
@@ -145,7 +150,12 @@
     </div>
 
     <div>
-      <a class="pizzasespeciaislink" href="./index.html">
+      <a
+        onmouseover="onOver(this)"
+        onmouseout="onOut(this)"
+        class="pizzasespeciaislink"
+        href="./index.html"
+      >
         Voltar para a página inicial</a
       >
     </div>

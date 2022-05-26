@@ -270,6 +270,16 @@
           margin-right: 0px;
           border-radius: 12px;
         }
+
+        .images {
+          position: relative;
+          bottom: 0;
+        }
+
+        .botaodomingo {
+          position: relative;
+          bottom: 8px;
+        }
       }
     </style>
     <script>
@@ -383,7 +393,7 @@
       </ul>
     </div>
 
-    <div>
+    <div class="images">
       <a href="https://www.instagram.com/restauranteflordelis/"
         ><img src="./images/insta.png" alt="instagram"
       /></a>
@@ -393,8 +403,10 @@
       /></a>
     </div>
 
-    <div>
+    <div class="botaodomingo">
       <a
+        onmouseover="onOver(this)"
+        onmouseout="onOut(this)"
         class="cardápiodedomingolink"
         href="./Cardápio Restaurante Domingo.html"
       >
