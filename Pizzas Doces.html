@@ -71,18 +71,6 @@
         margin-top: 490px;
       }
 
-      #brigadeiro {
-        margin-right: 115px;
-      }
-
-      #romeuejulieta {
-        margin-right: 65px;
-      }
-
-      #banana {
-        margin-right: 150px;
-      }
-
       @media screen and (max-width: 500px) {
         body {
           background-repeat: no-repeat;
@@ -112,47 +100,21 @@
           padding: 20px;
           font-family: 'The Nautigal', cursive;
         }
-
-        #brigadeiro {
-          margin-right: 0px;
-        }
-
-        #romeuejulieta {
-          margin-right: 0px;
-        }
-
-        #banana {
-          margin-right: 0px;
-        }
       }
     </style>
-
-    <script>
-      function onOver(elemento) {
-        elemento.style.backgroundColor = 'red';
-      }
-
-      function onOut(elemento) {
-        elemento.style.backgroundColor = 'greenyellow';
-      }
-    </script>
   </head>
   <body>
     <div class="cardápio">
       <div class="titulodocardapio">Pizzas</div>
 
       <ul>
-        <li onmouseover="onOver(this)" onmouseout="onOut(this)" id="brigadeiro">
+        <li>
           <a href="./Pizza de Brigadeiro.html">Brigadeiro</a>
         </li>
-        <li
-          onmouseover="onOver(this)"
-          onmouseout="onOut(this)"
-          id="romeuejulieta"
-        >
+        <li>
           <a href="./Pizza Romeu e Julieta.html">Romeu e Julieta</a>
         </li>
-        <li onmouseover="onOver(this)" onmouseout="onOut(this)" id="banana">
+        <li>
           <a href="./Pizza de Banana.html">Banana</a>
         </li>
 
@@ -180,5 +142,6 @@
         Pastel</a
       >
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>

@@ -69,51 +69,6 @@
         top: 90px;
       }
 
-      #hot {
-        margin-right: 185px;
-        border-radius: 12px;
-      }
-
-      #cru {
-        margin-right: 185px;
-        border-radius: 12px;
-      }
-
-      #tradicional {
-        margin-right: 115px;
-        border-radius: 12px;
-      }
-
-      #nigiri {
-        margin-right: 165px;
-        border-radius: 12px;
-      }
-
-      #sashimi {
-        margin-right: 145px;
-        border-radius: 12px;
-      }
-
-      #jhow {
-        margin-right: 120px;
-        border-radius: 12px;
-      }
-
-      #homossomaki {
-        margin-right: 95px;
-        border-radius: 12px;
-      }
-
-      #hotholl {
-        margin-right: 145px;
-        border-radius: 12px;
-      }
-
-      #uramaki {
-        margin-right: 140px;
-        border-radius: 12px;
-      }
-
       @media screen and (max-width: 500px) {
         body {
           background-repeat: no-repeat;
@@ -143,80 +98,21 @@
           font-family: 'The Nautigal', cursive;
           top: 197px;
         }
-
-        #hot {
-          margin-right: 0px;
-          border-radius: 12px;
-        }
-
-        #cru {
-          margin-right: 0px;
-          border-radius: 12px;
-        }
-
-        #tradicional {
-          margin-right: 0px;
-          border-radius: 12px;
-        }
-
-        #nigiri {
-          margin-right: 0px;
-          border-radius: 12px;
-        }
-
-        #sashimi {
-          margin-right: 0px;
-          border-radius: 12px;
-        }
-
-        #jhow {
-          margin-right: 0px;
-          border-radius: 12px;
-        }
-
-        #homossomaki {
-          margin-right: 0px;
-          border-radius: 12px;
-        }
-
-        #hotholl {
-          margin-right: 0px;
-          border-radius: 12px;
-        }
-
-        #uramaki {
-          margin-right: 0px;
-          border-radius: 12px;
-        }
       }
     </style>
-
-    <script>
-      function onOver(elemento) {
-        elemento.style.backgroundColor = 'red';
-      }
-
-      function onOut(elemento) {
-        elemento.style.backgroundColor = 'greenyellow';
-      }
-    </script>
   </head>
   <body>
     <div class="cardápio">
       <div class="titulodocardapio">Temaki</div>
 
       <ul>
-        <li onmouseover="onOver(this)" onmouseout="onOut(this)" id="hot">
+        <li>
           <a href="./Hot.html">Hot</a>
         </li>
-        <li onmouseover="onOver(this)" onmouseout="onOut(this)" id="cru">
+        <li>
           <a href="./Cru.html">Cru</a>
         </li>
-        <li
-          onmouseover="onOver(this)"
-          onmouseout="onOut(this)"
-          id="tradicional"
-        >
+        <li>
           <a href="./Tradicional.html">Tradicional</a>
         </li>
 
@@ -227,26 +123,22 @@
     <div class="segundo cardápio">
       <div class="titulodocardapio">Sushis</div>
       <ul>
-        <li onmouseover="onOver(this)" onmouseout="onOut(this)" id="nigiri">
+        <li>
           <a href="./Nigiri.html">Nigiri</a>
         </li>
-        <li onmouseover="onOver(this)" onmouseout="onOut(this)" id="sashimi">
+        <li>
           <a href="./Sashimi.html">Sashimi</a>
         </li>
-        <li onmouseover="onOver(this)" onmouseout="onOut(this)" id="jhow">
+        <li>
           <a href="./Jhow (joy).html">Jhow (joy)</a>
         </li>
-        <li
-          onmouseover="onOver(this)"
-          onmouseout="onOut(this)"
-          id="homossomaki"
-        >
+        <li>
           <a href="./Homossomaki.html">Homossomaki</a>
         </li>
-        <li onmouseover="onOver(this)" onmouseout="onOut(this)" id="hotholl">
+        <li>
           <a href="./Hot holl.html">Hot holl</a>
         </li>
-        <li onmouseover="onOver(this)" onmouseout="onOut(this)" id="uramaki">
+        <li>
           <a href="./Uramaki.html">Uramaki</a>
         </li>
         <br />
@@ -273,5 +165,6 @@
         Combo</a
       >
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
