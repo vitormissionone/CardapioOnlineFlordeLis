@@ -13,7 +13,6 @@
     />
     <style>
       body {
-        background-size: cover;
         background-image: url(https://png.pngtree.com/back_origin_pic/02/68/49/b28f29f88962d8580d264e248a400063.jpg);
         background-repeat: no-repeat;
       }
@@ -51,52 +50,53 @@
       .combolink {
         color: rgb(0, 0, 0);
         font-size: 20px;
-        position: relative;
-        left: 173px;
+        position: absolute;
+        left: 160px;
+        top: 565px;
         background-color: greenyellow;
         border-radius: 20px;
         padding: 20px;
         font-family: 'The Nautigal', cursive;
-        top: 20px;
-        display: inline-block;
-        margin-bottom: 60px;
       }
 
-      img {
+      #insta {
         width: 50px;
-        margin-top: 20px;
-        position: relative;
-        top: 90px;
+        position: absolute;
+        top: 580px;
+      }
+      #whats {
+        width: 50px;
+        position: absolute;
+        left: 62px;
+        top: 579px;
       }
 
-      @media screen and (max-width: 500px) {
-        body {
-          background-repeat: no-repeat;
-          background-size: cover;
-          height: 770px;
-        }
-
+      @media screen and (max-width: 800px) {
         .cardápio {
           width: 200px;
           margin: auto;
         }
-
-        img {
-          width: 50px;
-          position: relative;
-          top: 260px;
+        #insta {
+          top: 670px;
+        }
+        #whats {
+          top: 670px;
         }
 
         .combolink {
           color: rgb(0, 0, 0);
           font-size: 20px;
-          position: relative;
-          left: 115px;
+          position: absolute;
+          left: 140px;
+          top: 660px;
           background-color: greenyellow;
           border-radius: 20px;
           padding: 20px;
           font-family: 'The Nautigal', cursive;
-          top: 197px;
+        }
+
+        li {
+          font-size: 20px;
         }
       }
     </style>
@@ -145,15 +145,13 @@
       </ul>
     </div>
 
-    <div>
-      <a href="https://www.instagram.com/restauranteflordelis/"
-        ><img src="./images/insta.png" alt="instagram"
-      /></a>
+    <a href="https://www.instagram.com/restauranteflordelis/"
+      ><img id="insta" src="./images/insta.png" alt="instagram"
+    /></a>
 
-      <a href="https://wa.me/5574991304115"
-        ><img src="./images/whats.png" alt="whatsapp"
-      /></a>
-    </div>
+    <a href="https://wa.me/5574991304115"
+      ><img id="whats" src="./images/whats.png" alt="whatsapp"
+    /></a>
 
     <div>
       <a

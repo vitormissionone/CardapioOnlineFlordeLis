@@ -14,7 +14,6 @@
 
     <style>
       body {
-        position: relative;
         background-image: url(https://png.pngtree.com/back_origin_pic/02/68/49/b28f29f88962d8580d264e248a400063.jpg);
         margin-left: 10px;
         margin-right: 10px;
@@ -80,37 +79,34 @@
         color: black;
       }
 
-      @media screen and (max-width: 500px) {
-        .body {
-          background-repeat: no-repeat;
-          background-size: cover;
-          margin-left: 3px;
-          margin-right: 3px;
+      @media screen and (max-width: 800px) {
+        body {
+          margin-left: 8px;
+          margin-right: 8px;
         }
-
         h1 {
           font-size: 35px;
         }
 
         .botãorestaurante {
-          margin-left: 95px;
+          margin-left: 100px;
           margin-top: 10px;
           font-size: 45px;
         }
 
         .botãopizzaria {
-          margin-left: 95px;
+          margin-left: 100px;
           font-size: 50px;
         }
 
         .botãojapolis {
-          margin-left: 105px;
+          margin-left: 115px;
           margin-top: 400px;
           font-size: 50px;
         }
 
         img {
-          margin-top: 600px;
+          margin-top: 578px;
         }
       }
     </style>
@@ -120,39 +116,41 @@
       <h1>Restaurante e Pizzaria Flor de Lis</h1>
     </header>
 
-    <div
+    <a
       class="botãorestaurante"
       onmouseover="onOver(this)"
       onmouseout="onOut(this)"
+      href="./Cardápio Restaurante Segunda-feira.html"
     >
-      <a href="./Cardápio Restaurante Segunda-feira.html"> Restaurante</a>
-    </div>
+      Restaurante</a
+    >
 
-    <div
+    <a
       class="botãopizzaria"
       onmouseover="onOver(this)"
       onmouseout="onOut(this)"
+      href="./Página de Preços das pizzas.html"
     >
-      <a href="./Página de Preços das pizzas.html"> Pizzaria</a>
-    </div>
+      Pizzaria</a
+    >
 
-    <div
+    <a
       class="botãojapolis"
       onmouseover="onOver(this)"
       onmouseout="onOut(this)"
+      href="./Japolis.html"
     >
-      <a href="./Japolis.html"> Japolis</a>
-    </div>
+      Japolis</a
+    >
 
-    <div>
-      <a href="https://www.instagram.com/restauranteflordelis/"
-        ><img src="./images/insta.png" alt="instagram"
-      /></a>
+    <a href="https://www.instagram.com/restauranteflordelis/"
+      ><img src="./images/insta.png" alt="instagram"
+    /></a>
 
-      <a href="https://wa.me/5574991304115"
-        ><img src="./images/whats.png" alt="whatsapp"
-      /></a>
-    </div>
+    <a href="https://wa.me/5574991304115"
+      ><img src="./images/whats.png" alt="whatsapp"
+    /></a>
+
     <script src="./script.js"></script>
   </body>
 </html>

@@ -1,193 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rondelly</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2? família=The+Nautigal&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2? família=The+Nautigal&display=swap"
+      rel="stylesheet"
+    />
     <style>
-body{
-    position: relative;
-background-image: url(https://png.pngtree.com/back_origin_pic/02/68/49/b28f29f88962d8580d264e248a400063.jpg);
-}
+      body {
+        background-image: url(https://png.pngtree.com/back_origin_pic/02/68/49/b28f29f88962d8580d264e248a400063.jpg);
+        background-repeat: no-repeat;
+      }
 
-
-
-img{
-    position: relative;
-    padding-left: 130px;
-    display: inline-block;
-    width: 500px;
-    
-}
-
-.ingredientesdarondelly{
-    text-align: center;
-    font-family: 'The Nautigal', cursive ;
-    font-size: 20px;
-    color: white;
-    width: 400px;
-    padding: auto;
-    margin: auto;
-}
-
-
-.preço{
-    float: right;
-    color:greenyellow ;
-    font-size: 25px;
-    font-family: 'The Nautigal', cursive ;
-margin: 0;
-}
-
-
-.elementointeiro{
-    text-align: center;
-    padding: auto;
-    margin: auto;
-
-}
-
-
-.imagemdowhats{
-    width: 50px;
-    margin: 0;
-    padding: 0;
-}
-
-
-.whatsapp{
-    color: white;
-    font-size: 20px;
-}
-
-
-
-.imagemdaseta{
-    width: 40px;
-    padding: 0;
-}
-
-
-
-.façaoseupedidoaqui{
-    font-family: 'The Nautigal', cursive ;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-
-
-@media screen and (max-width: 500px){
-   
-    img{
+      .imgdoprato {
         position: relative;
-    display: inline-block;
-    width: 320px;
-    right: 110px;
-    }
+        width: 500px;
+        left: 400px;
+      }
 
+      .ingredientes-do-prato {
+        text-align: center;
+        font-family: 'The Nautigal', cursive;
+        font-size: 20px;
+        color: white;
+        width: 400px;
+        position: absolute;
+        left: 950px;
+        bottom: 20px;
+      }
 
+      .preço {
+        position: sticky;
+        color: greenyellow;
+        font-size: 25px;
+        font-family: 'The Nautigal', cursive;
+        bottom: 590px;
+      }
 
-.preço{
-    float: right;
-    position: absolute;
-    display: inline-block;
-    left: 5px;
-    font-size: 20px;
-}
+      .façaoseupedidoaqui {
+        font-family: 'The Nautigal', cursive;
+        position: absolute;
+        top: 550px;
+        left: 12px;
+        font-size: 20px;
+        background-color: greenyellow;
+        padding: 20px;
+        border-radius: 20px;
+      }
 
-.ingredientesdarondelly{
-    text-align: center;
-    
-    
-}
+      a {
+        text-decoration: none;
+        color: black;
+      }
 
-.elementointeiro{
-    margin-left: 20px;
-}
+      @media screen and (max-width: 800px) {
+        .imgdoprato {
+          position: absolute;
+          width: 300px;
+          left: 50px;
+        }
 
+        .preço {
+          position: absolute;
+          left: 5px;
+          font-size: 20px;
+          top: 230px;
+        }
 
-.imagemdowhats{
-    float: right;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-position: absolute;
-left: 40px;
-}
+        .ingredientes-do-prato {
+          font-size: 22px;
+          position: absolute;
+          left: 5px;
+          top: 270px;
+        }
 
-.imagemdaseta{
-    width:40px ;
-    position: absolute;
-    float: left;
-    display: inline-block;
-   margin: 0;
-    padding: 0;
-    left: 40px;
-}
-
-
-
-}
-
-
+        .façaoseupedidoaqui {
+          font-family: 'The Nautigal', cursive;
+          position: absolute;
+          top: 635px;
+          left: 100px;
+          font-size: 20px;
+          background-color: greenyellow;
+          padding: 20px;
+          border-radius: 20px;
+        }
+      }
     </style>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <img
+      class="imgdoprato"
+      src="https://th.bing.com/th/id/OIP.WZ_KrJP6n0ZhbjvGPd3baAHaDw?pid=ImgDet&rs=1"
+      alt="Rondelly"
+    />
 
+    <p class="preço">Preço: 15 R$</p>
 
+    <p class="ingredientes-do-prato">
+      Ingredientes
+      <br /><br />
 
-
-
-<div class="elementointeiro">
-
-    <img src="https://th.bing.com/th/id/OIP.WZ_KrJP6n0ZhbjvGPd3baAHaDw?pid=ImgDet&rs=1" alt="Rondelly">
-
-    <p class="preço">
-        Preço: 15 R$
+      6 folhas de massa pronta de lasanha <br />
+      6 fatias de presunto<br />
+      6 fatias de mussarela<br />
+      4 colheres (sopa) de requeijão<br />
+      1 caixa de creme de leite<br />
+      1 pacote de molho pronto<br />
+      200 g de mussarela ou outro queijo de sua preferência ralado<br />
     </p>
 
-<p class="ingredientesdarondelly">
-    Ingredientes
-    <br><br>
-    
-    6 folhas de massa pronta de lasanha <br>
-6 fatias de presunto<br>
-6 fatias de mussarela<br>
-4 colheres (sopa) de requeijão<br>
-1 caixa de creme de leite<br>
-1 pacote de molho pronto<br>
-200 g de mussarela ou outro queijo de sua preferência ralado<br>
-    
-
-
-</p>
-
-
-</div>
-
-<div class="whatsapp">
-
-
-<a href="https://wa.me/5574991304115"><img class="imagemdowhats" src="./images/whats.png" alt="whatsapp">
-<br><br><br>
-<img class="imagemdaseta" src="./images/seta.png" alt="seta">
-
-
-<br><br>
-<p class="façaoseupedidoaqui">
-    Faça seu pedido aqui !!!
-</p>
-</a>
-</div>
-
-</body>
+    <a
+      href="https://wa.me/5574991304115?text=Boa%20tarde,%20eu%20gostaria%20de%20pedir%20o%20prato:%20Rondelly,%20por%20favor."
+    >
+      <p class="façaoseupedidoaqui">Faça seu pedido aqui !!!</p>
+    </a>
+  </body>
 </html>

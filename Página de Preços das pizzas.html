@@ -8,7 +8,6 @@
 
     <style>
       body {
-        position: relative;
         background-image: url(https://png.pngtree.com/back_origin_pic/02/68/49/b28f29f88962d8580d264e248a400063.jpg);
         margin-left: 10px;
         margin-right: 10px;
@@ -82,13 +81,7 @@
         color: black;
       }
 
-      @media screen and (max-width: 500px) {
-        body {
-          background-repeat: no-repeat;
-          background-size: cover;
-          height: 770px;
-        }
-
+      @media screen and (max-width: 800px) {
         .botãodabordacheddar {
           width: 320px;
           margin-left: 2px;
@@ -121,7 +114,7 @@
 
         .botãodocardápio {
           margin-left: 115px;
-          margin-top: 650px;
+          margin-top: 607px;
           position: relative;
         }
 
@@ -131,16 +124,6 @@
         }
       }
     </style>
-
-    <script>
-      function onOver(elemento) {
-        elemento.style.backgroundColor = 'red';
-      }
-
-      function onOut(elemento) {
-        elemento.style.backgroundColor = 'white';
-      }
-    </script>
   </head>
   <body>
     <div class="botãodabordacheddar">
@@ -160,15 +143,14 @@
       4 FATIAS
     </div>
 
-    <div>
-      <a
-        onmouseover="onOver(this)"
-        onmouseout="onOut(this)"
-        class="botãodocardápio"
-        href="./Cardápio da Pizzaria.html"
-      >
-        Cardápio</a
-      >
-    </div>
+    <a
+      onmouseover="onOver(this)"
+      onmouseout="onOut(this)"
+      class="botãodocardápio"
+      href="./Cardápio da Pizzaria.html"
+    >
+      Cardápio</a
+    >
+    <script src="./script.js"></script>
   </body>
 </html>

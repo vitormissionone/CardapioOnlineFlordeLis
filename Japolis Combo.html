@@ -13,10 +13,8 @@
     />
     <style>
       body {
-        background-size: cover;
         background-image: url(https://png.pngtree.com/back_origin_pic/02/68/49/b28f29f88962d8580d264e248a400063.jpg);
         background-repeat: no-repeat;
-        height: 770px;
       }
 
       .cardápio {
@@ -52,48 +50,52 @@
       .voltarparapaginainicial {
         color: rgb(0, 0, 0);
         font-size: 20px;
-        position: relative;
-        left: 90px;
-        bottom: 140px;
+        position: absolute;
+        left: 160px;
+        top: 565px;
         background-color: greenyellow;
         border-radius: 20px;
         padding: 20px;
         font-family: 'The Nautigal', cursive;
       }
 
-      img {
+      #insta {
         width: 50px;
-        margin-top: 9px;
-        position: relative;
-        bottom: 120px;
+        position: absolute;
+        top: 580px;
+      }
+      #whats {
+        width: 50px;
+        position: absolute;
+        left: 62px;
+        top: 579px;
       }
 
-      @media screen and (max-width: 500px) {
-        body {
-          background-repeat: no-repeat;
-          background-size: cover;
-          height: 770px;
-        }
-
+      @media screen and (max-width: 800px) {
         .cardápio {
-          width: 220px;
+          width: 200px;
+          margin: auto;
         }
-
-        img {
-          position: relative;
-          top: 60px;
+        #insta {
+          top: 670px;
+        }
+        #whats {
+          top: 670px;
         }
 
         .voltarparapaginainicial {
           color: rgb(0, 0, 0);
-          font-size: 15px;
-          position: relative;
+          font-size: 20px;
+          position: absolute;
+          left: 140px;
+          top: 660px;
           background-color: greenyellow;
           border-radius: 20px;
           padding: 20px;
           font-family: 'The Nautigal', cursive;
-          top: 40px;
-          left: 5px;
+        }
+        li {
+          font-size: 20px;
         }
       }
     </style>
@@ -133,11 +135,11 @@
     </div>
 
     <a href="https://www.instagram.com/restauranteflordelis/"
-      ><img src="./images/insta.png" alt="instagram"
+      ><img id="insta" src="./images/insta.png" alt="instagram"
     /></a>
 
     <a href="https://wa.me/5574991304115"
-      ><img src="./images/whats.png" alt="whatsapp"
+      ><img id="whats" src="./images/whats.png" alt="whatsapp"
     /></a>
 
     <a

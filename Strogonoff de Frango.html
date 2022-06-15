@@ -23,60 +23,46 @@
         left: 400px;
       }
 
-      .ingredientesdostrogonoffdefrango {
+      .ingredientes-do-prato {
         text-align: center;
         font-family: 'The Nautigal', cursive;
         font-size: 20px;
         color: white;
         width: 400px;
         position: absolute;
-        left: 450px;
+        left: 950px;
+        bottom: 20px;
       }
 
       .preço {
-        position: absolute;
+        position: sticky;
         color: greenyellow;
         font-size: 25px;
         font-family: 'The Nautigal', cursive;
-        left: 1190px;
         bottom: 590px;
-      }
-
-      .imagemdowhats {
-        width: 50px;
-        position: absolute;
-        top: 620px;
-        left: 80px;
-      }
-
-      .imagemdaseta {
-        width: 30px;
-        position: absolute;
-        top: 700px;
-        left: 90px;
       }
 
       .façaoseupedidoaqui {
         font-family: 'The Nautigal', cursive;
         position: absolute;
-        top: 730px;
+        top: 550px;
         left: 12px;
         font-size: 20px;
+        background-color: greenyellow;
+        padding: 20px;
+        border-radius: 20px;
       }
 
       a {
         text-decoration: none;
-        color: white;
+        color: black;
       }
 
-      @media screen and (max-width: 500px) {
-        body {
-          background-repeat: no-repeat;
-        }
+      @media screen and (max-width: 800px) {
         .imgdoprato {
           position: absolute;
           width: 300px;
-          left: 45px;
+          left: 50px;
         }
 
         .preço {
@@ -86,31 +72,22 @@
           top: 230px;
         }
 
-        .ingredientesdostrogonoffdefrango {
-          font-size: 20px;
+        .ingredientes-do-prato {
+          font-size: 22px;
           position: absolute;
           left: 5px;
           top: 270px;
         }
 
-        .imagemdowhats {
-          position: absolute;
-          left: 50px;
-        }
-
-        .imagemdaseta {
-          width: 30px;
-          position: absolute;
-          left: 60px;
-          top: 690px;
-        }
-
         .façaoseupedidoaqui {
           font-family: 'The Nautigal', cursive;
           position: absolute;
-          top: 720px;
-          left: 12px;
+          top: 635px;
+          left: 100px;
           font-size: 20px;
+          background-color: greenyellow;
+          padding: 20px;
+          border-radius: 20px;
         }
       }
     </style>
@@ -124,7 +101,7 @@
 
     <p class="preço">Preço: 15 R$</p>
 
-    <p class="ingredientesdostrogonoffdefrango">
+    <p class="ingredientes-do-prato">
       Ingredientes
       <br /><br />
 
@@ -141,12 +118,9 @@
       batata palha a gosto<br />
     </p>
 
-    <a href="https://wa.me/5574991304115"
-      ><img class="imagemdowhats" src="./images/whats.png" alt="whatsapp" />
-      <br /><br /><br />
-      <img class="imagemdaseta" src="./images/seta.png" alt="seta" />
-
-      <br /><br />
+    <a
+      href="https://wa.me/5574991304115?text=Boa%20tarde,%20eu%20gostaria%20de%20pedir%20o%20prato:%20Strogonoff%20de%20Frango,%20por%20favor."
+    >
       <p class="façaoseupedidoaqui">Faça seu pedido aqui !!!</p>
     </a>
   </body>

@@ -23,7 +23,6 @@
         font-size: 20px;
         border-radius: 30px;
         background-position: center;
-
         margin: auto;
       }
 
@@ -50,54 +49,53 @@
       .pizzasespeciaislink {
         color: rgb(0, 0, 0);
         font-size: 20px;
-        position: relative;
-        left: 173px;
-        bottom: 130px;
+        position: absolute;
+        left: 160px;
+        top: 565px;
         background-color: greenyellow;
         border-radius: 20px;
         padding: 20px;
         font-family: 'The Nautigal', cursive;
       }
 
-      img {
+      #insta {
         width: 50px;
-        margin-top: 9px;
-        position: relative;
-        bottom: 80px;
+        position: absolute;
+        top: 580px;
+      }
+      #whats {
+        width: 50px;
+        position: absolute;
+        left: 62px;
+        top: 579px;
       }
 
-      .elementosdoslinks {
-        margin-top: 520px;
-      }
-
-      @media screen and (max-width: 500px) {
-        body {
-          background-repeat: no-repeat;
-          background-size: cover;
-          height: 770px;
-        }
-
+      @media screen and (max-width: 800px) {
         .cardápio {
           width: 200px;
           margin: auto;
         }
 
-        img {
-          width: 50px;
-          position: relative;
-          top: 50px;
+        #insta {
+          top: 670px;
+        }
+        #whats {
+          top: 670px;
         }
 
         .pizzasespeciaislink {
           color: rgb(0, 0, 0);
           font-size: 20px;
-          position: relative;
-          left: 115px;
-          top: 5px;
+          position: absolute;
+          left: 140px;
+          top: 660px;
           background-color: greenyellow;
           border-radius: 20px;
           padding: 20px;
           font-family: 'The Nautigal', cursive;
+        }
+        li {
+          font-size: 20px;
         }
       }
     </style>
@@ -118,26 +116,23 @@
       </ul>
     </div>
 
-    <div class="elementosdoslinks">
-      <a href="https://www.instagram.com/restauranteflordelis/"
-        ><img src="./images/insta.png" alt="instagram"
-      /></a>
+    <a href="https://www.instagram.com/restauranteflordelis/"
+      ><img id="insta" src="./images/insta.png" alt="instagram"
+    /></a>
 
-      <a href="https://wa.me/5574991304115"
-        ><img src="./images/whats.png" alt="whatsapp"
-      /></a>
-    </div>
+    <a href="https://wa.me/5574991304115"
+      ><img id="whats" src="./images/whats.png" alt="whatsapp"
+    /></a>
 
-    <div>
-      <a
-        onmouseover="onOver(this)"
-        onmouseout="onOut(this)"
-        class="pizzasespeciaislink"
-        href="./Pizzas Doces.html"
-      >
-        Pizzas Doces</a
-      >
-    </div>
+    <a
+      onmouseover="onOver(this)"
+      onmouseout="onOut(this)"
+      class="pizzasespeciaislink"
+      href="./Pizzas Doces.html"
+    >
+      Pizzas Doces</a
+    >
+
     <script src="./script.js"></script>
   </body>
 </html>
