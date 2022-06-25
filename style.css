@@ -1,0 +1,257 @@
+/* index */
+body {
+  background-image: url(https://png.pngtree.com/back_origin_pic/02/68/49/b28f29f88962d8580d264e248a400063.jpg);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  background-color: greenyellow;
+  border-radius: 30px;
+  font-size: 60px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'The Nautigal', cursive;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.botãorestaurante {
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  font-family: 'The Nautigal', cursive;
+  background-color: greenyellow;
+  position: absolute;
+  display: inline-block;
+  padding: 25px;
+  border-radius: 50%;
+  margin-top: 200px;
+  margin-left: 280px;
+}
+
+.botãopizzaria {
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  font-family: 'The Nautigal', cursive;
+  background-color: greenyellow;
+  position: absolute;
+  display: inline-block;
+  padding: 25px;
+  border-radius: 50%;
+  margin-top: 200px;
+  margin-left: 587px;
+}
+.botãojapolis {
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  font-family: 'The Nautigal', cursive;
+  background-color: greenyellow;
+  position: absolute;
+  display: inline-block;
+  padding: 25px;
+  border-radius: 50%;
+  margin-top: 200px;
+  margin-left: 850px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#insta {
+  width: 50px;
+  position: absolute;
+  top: 580px;
+}
+#whats {
+  width: 50px;
+  position: absolute;
+  left: 62px;
+  top: 579px;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  .botãorestaurante {
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 45px;
+  }
+
+  .botãopizzaria {
+    margin-left: 100px;
+    font-size: 50px;
+  }
+
+  .botãojapolis {
+    margin-left: 115px;
+    margin-top: 400px;
+    font-size: 50px;
+  }
+
+  #insta {
+    top: 670px;
+  }
+  #whats {
+    top: 670px;
+  }
+}
+/* restaurante, pizzaria, japolis*/
+.cardápio {
+  background-color: greenyellow;
+  width: 23%;
+  font-size: 20px;
+  border-radius: 30px;
+  background-position: center;
+  margin: auto;
+}
+
+.titulodocardapio {
+  background-color: red;
+  font-family: 'The Nautigal', cursive;
+  text-align: center;
+  padding: 5px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+li {
+  list-style: none;
+  font-family: 'The Nautigal', cursive;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.proximocardapiolink {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  position: absolute;
+  left: 160px;
+  top: 565px;
+  background-color: greenyellow;
+  border-radius: 20px;
+  padding: 20px;
+  font-family: 'The Nautigal', cursive;
+}
+
+#insta {
+  width: 50px;
+  position: absolute;
+  top: 580px;
+}
+#whats {
+  width: 50px;
+  position: absolute;
+  left: 62px;
+  top: 579px;
+}
+@media screen and (max-width: 800px) {
+  .cardápio {
+    width: 200px;
+    margin: auto;
+  }
+  #insta {
+    top: 670px;
+  }
+  #whats {
+    top: 670px;
+  }
+  .proximocardapiolink {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    left: 140px;
+    top: 660px;
+    background-color: greenyellow;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'The Nautigal', cursive;
+  }
+
+  li {
+    font-size: 20px;
+  }
+}
+
+/* pratos */
+.imgdoprato {
+  position: relative;
+  width: 500px;
+  left: 400px;
+}
+
+.ingredientes-do-prato {
+  text-align: center;
+  font-family: 'The Nautigal', cursive;
+  font-size: 20px;
+  color: white;
+  width: 400px;
+  position: absolute;
+  left: 950px;
+  bottom: 20px;
+}
+
+.preço {
+  position: sticky;
+  color: greenyellow;
+  font-size: 25px;
+  font-family: 'The Nautigal', cursive;
+  bottom: 590px;
+}
+
+.façaoseupedidoaqui {
+  font-family: 'The Nautigal', cursive;
+  position: absolute;
+  top: 550px;
+  left: 12px;
+  font-size: 20px;
+  background-color: greenyellow;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .imgdoprato {
+    position: absolute;
+    width: 300px;
+    left: 50px;
+  }
+
+  .ingredientes-do-prato {
+    font-size: 22px;
+    position: absolute;
+    left: 5px;
+    top: 270px;
+  }
+
+  .façaoseupedidoaqui {
+    font-family: 'The Nautigal', cursive;
+    position: absolute;
+    top: 635px;
+    left: 100px;
+    font-size: 20px;
+    background-color: greenyellow;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .preço {
+    position: absolute;
+    left: 5px;
+    font-size: 20px;
+    top: 230px;
+  }
+}
+/* exceções */
