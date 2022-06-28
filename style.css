@@ -16,8 +16,14 @@ h1 {
 }
 
 .container-1 {
-  display: grid;
-  grid-gap: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  gap: 40px;
+  justify-content: center;
+  height: 450px;
+  align-items: center;
+  /* grid-gap: 40px;
   grid-template-areas:
     'a1 a2 a3'
     'a4 a5 a5'
@@ -25,7 +31,7 @@ h1 {
   align-items: center;
   align-content: center;
   justify-content: space-between;
-  height: 500px;
+  height: 500px; */
 }
 
 .botãorestaurante {
@@ -35,7 +41,8 @@ h1 {
   background-color: greenyellow;
   padding: 25px;
   border-radius: 50%;
-  grid-area: a1;
+  text-align: center;
+  /* grid-area: a1; */
 }
 
 .botãopizzaria {
@@ -45,7 +52,8 @@ h1 {
   background-color: greenyellow;
   padding: 25px;
   border-radius: 50%;
-  grid-area: a2;
+  text-align: center;
+  /* grid-area: a2; */
 }
 .botãojapolis {
   color: rgb(0, 0, 0);
@@ -54,7 +62,8 @@ h1 {
   background-color: greenyellow;
   padding: 25px;
   border-radius: 50%;
-  grid-area: a3;
+  text-align: center;
+  /* grid-area: a3; */
 }
 
 a {
@@ -64,12 +73,12 @@ a {
 
 #insta {
   width: 50px;
-  grid-area: a4;
+  /* grid-area: a4; */
 }
 
 #whats {
   width: 50px;
-  grid-area: a5;
+  /* grid-area: a5; */
 }
 
 @media screen and (max-width: 800px) {
@@ -77,8 +86,12 @@ a {
     font-size: 50px;
   }
   .container-1 {
-    display: grid;
-    grid-template-areas:
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 40px;
+    /* grid-template-areas:
       'a1 a1 a1'
       'a2 a2 a2'
       'a3 a3 a3'
@@ -86,7 +99,7 @@ a {
     width: 100%;
     height: 80%;
     justify-content: space-between;
-    justify-items: center;
+    justify-items: center; */
   }
   .botãorestaurante {
     font-size: 50px;
@@ -102,12 +115,12 @@ a {
 
   #insta {
     width: 50px;
-    grid-area: a4;
+    /* grid-area: a4; */
   }
 
   #whats {
     width: 50px;
-    grid-area: a5;
+    /* grid-area: a5; */
   }
 }
 /* restaurante, pizzaria, japolis*/
