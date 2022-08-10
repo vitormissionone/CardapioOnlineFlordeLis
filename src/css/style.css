@@ -1,0 +1,252 @@
+/* index */
+body {
+  background-image: url(https://png.pngtree.com/back_origin_pic/02/68/49/b28f29f88962d8580d264e248a400063.jpg);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  background-color: greenyellow;
+  border-radius: 30px;
+  font-size: 60px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'The Nautigal', cursive;
+  margin: auto;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  gap: 40px;
+  justify-content: center;
+  height: 450px;
+  align-items: center;
+}
+
+.botãorestaurante {
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  font-family: 'The Nautigal', cursive;
+  background-color: greenyellow;
+  padding: 25px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.botãopizzaria {
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  font-family: 'The Nautigal', cursive;
+  background-color: greenyellow;
+  padding: 25px;
+  border-radius: 50%;
+  text-align: center;
+}
+.botãojapolis {
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  font-family: 'The Nautigal', cursive;
+  background-color: greenyellow;
+  padding: 25px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#insta {
+  width: 50px;
+}
+
+#whats {
+  width: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 3.5em;
+  }
+  .container-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 40px;
+  }
+  .botãorestaurante {
+    font-size: 50px;
+  }
+
+  .botãopizzaria {
+    font-size: 50px;
+  }
+
+  .botãojapolis {
+    font-size: 50px;
+  }
+
+  #insta {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    width: 50px;
+  }
+
+  #whats {
+    width: 50px;
+  }
+}
+
+/* restaurante, pizzaria, japolis*/
+.cardápio {
+  background-color: greenyellow;
+  width: 20vw;
+  font-size: 20px;
+  border-radius: 30px;
+  margin: auto;
+}
+
+.titulodocardapio {
+  background-color: red;
+  font-family: 'The Nautigal', cursive;
+  text-align: center;
+  padding: 5px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+li {
+  list-style: none;
+  font-family: 'The Nautigal', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container-2 {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap-reverse;
+}
+
+.proximocardapiolink {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  background-color: greenyellow;
+  border-radius: 20px;
+  padding: 20px;
+  font-family: 'The Nautigal', cursive;
+}
+
+#insta {
+  width: 50px;
+}
+#whats {
+  width: 50px;
+}
+@media screen and (max-width: 800px) {
+  .cardápio {
+    width: 200px;
+    margin: auto;
+  }
+  .container-2 {
+    height: 150px;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  .proximocardapiolink {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: greenyellow;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'The Nautigal', cursive;
+  }
+
+  li {
+    font-size: 23px;
+  }
+}
+
+/* pratos */
+.imgdoprato {
+  position: relative;
+  width: 500px;
+  left: 400px;
+}
+
+.ingredientes-do-prato {
+  text-align: center;
+  font-family: 'The Nautigal', cursive;
+  font-size: 20px;
+  color: white;
+  width: 400px;
+  position: absolute;
+  left: 950px;
+  bottom: 20px;
+}
+
+.preço {
+  position: sticky;
+  color: greenyellow;
+  font-size: 25px;
+  font-family: 'The Nautigal', cursive;
+  bottom: 590px;
+}
+
+.façaoseupedidoaqui {
+  font-family: 'The Nautigal', cursive;
+  position: absolute;
+  top: 550px;
+  left: 12px;
+  font-size: 20px;
+  background-color: greenyellow;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .imgdoprato {
+    position: absolute;
+    width: 300px;
+    left: 50px;
+  }
+
+  .ingredientes-do-prato {
+    font-size: 22px;
+    position: absolute;
+    left: 5px;
+    top: 270px;
+  }
+
+  .façaoseupedidoaqui {
+    font-family: 'The Nautigal', cursive;
+    position: absolute;
+    top: 635px;
+    left: 100px;
+    font-size: 20px;
+    background-color: greenyellow;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .preço {
+    position: absolute;
+    left: 5px;
+    font-size: 20px;
+    top: 230px;
+  }
+}
