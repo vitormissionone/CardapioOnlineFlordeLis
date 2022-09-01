@@ -1,0 +1,105 @@
+body {
+  font-family: minhaFonte2;
+}
+
+@font-face {
+  font-family: minhaFonte;
+  src: url(../fonts/Great_Vibes/GreatVibes-Regular.ttf);
+}
+
+@font-face {
+  font-family: minhaFonte2;
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+.titulo {
+  font-family: minhaFonte;
+  font-size: 80px;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/fundo-parede.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  gap: 50px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.btn-seta {
+  background-color: #f1ecff;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn-seta.btn-voltar {
+  transform: rotateY(180deg);
+}
+
+.btn-seta:hover {
+  background-color: yellowgreen;
+}
+
+.restaurante {
+  display: flex;
+  background-image: url(../images/fundo-restaurante.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.pizzaria {
+  display: flex;
+  background-image: url(../images/fundo-pizzaria.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.japolis {
+  display: flex;
+  background-image: url(../images/fundo-japolis.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.rodape {
+  background-color: #2b2d42;
+  color: white;
+}
+
+.redes-sociais {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.imagens-redes-sociais {
+  width: 50px;
+}
+
+.creditos {
+  padding: 10px;
+  text-align: center;
+}
+
+ul {
+  background: rgba(255, 255, 255, 0.5);
+}
