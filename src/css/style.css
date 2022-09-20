@@ -69,7 +69,7 @@ body {
 .lista-pratos {
   position: relative;
   width: 210px;
-  height: 400px;
+  height: 420px;
   display: flex;
   justify-content: center;
 }
